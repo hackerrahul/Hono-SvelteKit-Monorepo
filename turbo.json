@@ -9,7 +9,7 @@
       "dependsOn": ["^build"],
       "outputs": ["dist/**", ".svelte-kit/**"]
     },
-    "start": {
+    "deploy": {
       "dependsOn": ["^build"]
     },
     "typecheck": {

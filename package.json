@@ -9,7 +9,9 @@
   "scripts": {
     "dev": "turbo dev",
     "build": "turbo build",
-    "start": "turbo start",
+    "deploy": "turbo deploy",
+    "deploy:api": "turbo deploy --filter=@project/api",
+    "deploy:frontend": "turbo deploy --filter=@project/frontend",
     "typecheck": "turbo typecheck"
   },
   "devDependencies": {
